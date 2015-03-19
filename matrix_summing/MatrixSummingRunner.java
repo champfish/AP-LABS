@@ -1,4 +1,4 @@
-//© A+ Computer Science  -  www.apluscompsci.com
+//Â© A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date - 
 //Class -
@@ -14,7 +14,13 @@ public class MatrixSummingRunner
 	public static void main( String args[] ) throws IOException
 	{
 		Scanner file = new Scanner (new File("matsum.dat"));
-		//slideshow 13 has info on reading from a file
+		int num = file.nextInt();
+		for(int i=0;i<num;i++)
+		{
+			int r = file.nextInt();
+			int c = file.nextInt();
+			System.out.println(MatrixSumming.sum(r,c));
+		}
 	}
 }
 
