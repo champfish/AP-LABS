@@ -20,7 +20,7 @@ public class MatrixSummingRunner
 		{
 			int r = file.nextInt();
 			int c = file.nextInt();
-			System.out.println("The Sum of "+r+"and "+c+" is "s.sum(r,c));
+			System.out.println("The Sum of "+r+"and "+c+" is "+s.sum(r,c));
 		}
 	}
 }
