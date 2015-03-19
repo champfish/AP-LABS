@@ -15,9 +15,9 @@ public class MatrixSumming
     public int sum( int r, int c )
     {
     	int sum=0;
-    	for(int r=-1;r<=1;r++)
+    	for(int r2=r-1;r2<=r+1;r2++)
     	{
-    	    for(int c=-1;c<=1;c++)
+    	    for(int c2=c-1;c2<=c+1;c2++)
     	    {
     	        sum+=getValue(r,c);
     	    }
