@@ -19,7 +19,7 @@ public class MatrixSumming
     	{
     	    for(int c2=c-1;c2<=c+1;c2++)
     	    {
-    	        sum+=getValue(r,c);
+    	        sum+=getValue(r2,c2);
     	    }
     	}
     	return sum;
