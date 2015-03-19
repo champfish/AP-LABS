@@ -26,7 +26,7 @@ public class MatrixSumming
     {
         try
         {
-            return [r][c];
+            return m[r][c];
         }catch(Exception e){}
         return 0;
     }
