@@ -15,11 +15,12 @@ public class MatrixSummingRunner
 	{
 		Scanner file = new Scanner (new File("matsum.dat"));
 		int num = file.nextInt();
+		MatrixSumming s = new MatrixSumming();
 		for(int i=0;i<num;i++)
 		{
 			int r = file.nextInt();
 			int c = file.nextInt();
-			System.out.println(MatrixSumming.sum(r,c));
+			System.out.println(s.sum(r,c));
 		}
 	}
 }
